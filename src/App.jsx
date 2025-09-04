@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import "./index.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+import EducationSection from "./components/EducationSection";
 import AnimatedBackground from "./components/Background";
 import Navbar from "./components/Navbar";
 import Portofolio from "./Pages/Portofolio";
@@ -12,6 +13,7 @@ import WelcomeScreen from "./Pages/WelcomeScreen";
 import { AnimatePresence } from 'framer-motion';
 import notfound from "./Pages/404";
 import NotFoundPage from "./Pages/404";
+
 
 const LandingPage = ({ showWelcome, setShowWelcome }) => {
   return (
@@ -27,7 +29,10 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
           <Navbar />
           <AnimatedBackground />
           <Home />
+
           <About />
+          <EducationSection />
+
           <Portofolio />
           <ContactPage />
           <footer>
@@ -36,7 +41,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
               <span className="block text-sm pb-4 text-gray-500 text-center dark:text-gray-400">
                 © 2025{" "}
                 <a href="https://flowbite.com/" className="hover:underline">
-                  EkiZR™
+                  Abhishek Shrivastav™
                 </a>
                 . All Rights Reserved.
               </span>
@@ -55,9 +60,9 @@ const ProjectPageLayout = () => (
       <center>
         <hr className="my-3 border-gray-400 opacity-15 sm:mx-auto lg:my-6 text-center" />
         <span className="block text-sm pb-4 text-gray-500 text-center dark:text-gray-400">
-          © 2023{" "}
+          © 2025{" "}
           <a href="https://flowbite.com/" className="hover:underline">
-            EkiZR™
+            Abhishek Shrivastav™
           </a>
           . All Rights Reserved.
         </span>
@@ -75,6 +80,7 @@ function App() {
         <Route path="/" element={<LandingPage showWelcome={showWelcome} setShowWelcome={setShowWelcome} />} />
         <Route path="/project/:id" element={<ProjectPageLayout />} />
          <Route path="*" element={<NotFoundPage />} /> {/* Ini route 404 */}
+
       </Routes>
     </BrowserRouter>
   );

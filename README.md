@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 # Portfolio
+=======
+# Portfolio V5
+
+Hello everyone\! 👋
+
+Let me introduce myself, I'm **Abhishek Shrivastav**. On this occasion, I'd like to share the portfolio website project that I've developed.
+
+## 🚀 Live Demo
+
+**Website Link:** [https://www.abhishekshrivastav.com/](https://www.abhishekshrivastav.com/)
+>>>>>>> fde5554 (Updated portfolio: added Education page, updated components, removed old photos)
 
 ## 🛠️ Tech Stack
 
@@ -26,8 +38,13 @@ Follow these steps to run the project locally:
 
 ### 1\. Clone the Repository
 
+<<<<<<< HEAD
 ```bash=
 https://github.com/abhishekhubs/abhishekshrivastav.git
+=======
+```bash
+git clone https://github.com/abhishekshrivastav/Portofolio_V5.git
+>>>>>>> fde5554 (Updated portfolio: added Education page, updated components, removed old photos)
 cd Portofolio_V5
 ```
 
@@ -169,7 +186,7 @@ VALUES ('REPLACE_WITH_YOUR_CERTIFICATE_IMAGE_URL.png');
 
 -- Insert one example comment
 INSERT INTO public.portfolio_comments (content, user_name) 
-VALUES ('Created By Eki Zulfar Rachman', 'ekizr');
+VALUES ('Created By Abhishek Shrivastav', 'abhishekshrivastav');
 
 ```
 
@@ -225,3 +242,23 @@ If you encounter issues while running the project:
   - Check that all dependencies are installed without errors.
   - Make sure your Supabase configuration in the `.env` file is correct and the server has been restarted.
   - Clear your browser cache and try again.
+<<<<<<< HEAD
+=======
+
+## 📝 Usage & Credits
+
+We would appreciate it if you decide to use this project. Please include proper credit when using it. Thank you\! 🙏
+
+## 📞 Contact
+
+If you have any questions or need help with the setup, feel free to reach out\!
+
+**Abhishek Shrivastav**
+
+  - Website: [https://www.abhishekshrivastav.com/](https://www.abhishekshrivastav.com/)
+  - GitHub: [Abhishek Shrivastav](https://github.com/abhishekshrivastav)
+
+-----
+
+⭐ If this project helped you, please consider giving it a star on GitHub\!
+>>>>>>> fde5554 (Updated portfolio: added Education page, updated components, removed old photos)

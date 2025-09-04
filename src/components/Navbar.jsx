@@ -9,6 +9,7 @@ const Navbar = () => {
     const navItems = [
         { href: "#Home", label: "Home" },
         { href: "#About", label: "About" },
+        { href: "#EducationSection", label: "Education" },
         { href: "#Portofolio", label: "Portofolio" },
         { href: "#Contact", label: "Contact" },
     ];
@@ -84,7 +85,7 @@ const Navbar = () => {
                             onClick={(e) => scrollToSection(e, "#Home")}
                             className="text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#6366f1] bg-clip-text text-transparent"
                         >
-                            Ekizr
+                            Abhishek Shrivastav
                         </a>
                     </div>
         

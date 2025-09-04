@@ -21,7 +21,7 @@ const Header = memo(() => (
       data-aos-duration="800"
     >
       <Sparkles className="w-5 h-5 text-purple-400" />
-      Transforming ideas into digital experiences
+      Fueled by coffee, powered by code, deployed to reality.
       <Sparkles className="w-5 h-5 text-purple-400" />
     </p>
   </div>
@@ -36,31 +36,31 @@ const ProfileImage = memo(() => (
     >
       {/* Optimized gradient backgrounds with reduced complexity for mobile */}
       <div className="absolute -inset-6 opacity-[25%] z-0 hidden sm:block">
-        <div className="absolute inset-0 bg-gradient-to-r from-violet-600 via-indigo-500 to-purple-600 rounded-full blur-2xl animate-spin-slower" />
-        <div className="absolute inset-0 bg-gradient-to-l from-fuchsia-500 via-rose-500 to-pink-600 rounded-full blur-2xl animate-pulse-slow opacity-50" />
-        <div className="absolute inset-0 bg-gradient-to-t from-blue-600 via-cyan-500 to-teal-400 rounded-full blur-2xl animate-float opacity-50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-violet-600 via-indigo-500 to-purple-600 rounded-2xl blur-2xl animate-spin-slower" />
+        <div className="absolute inset-0 bg-gradient-to-l from-fuchsia-500 via-rose-500 to-pink-600 rounded-2xl blur-2xl animate-pulse-slow opacity-50" />
+        <div className="absolute inset-0 bg-gradient-to-t from-blue-600 via-cyan-500 to-teal-400 rounded-2xl blur-2xl animate-float opacity-50" />
       </div>
 
       <div className="relative">
-        <div className="w-72 h-72 sm:w-80 sm:h-80 rounded-full overflow-hidden shadow-[0_0_40px_rgba(120,119,198,0.3)] transform transition-all duration-700 group-hover:scale-105">
-          <div className="absolute inset-0 border-4 border-white/20 rounded-full z-20 transition-all duration-700 group-hover:border-white/40 group-hover:scale-105" />
+        <div className="w-72 h-72 sm:w-80 sm:h-80 rounded-2xl overflow-hidden shadow-[0_0_40px_rgba(120,119,198,0.3)] transform transition-all duration-700 group-hover:scale-105">
+          <div className="absolute inset-0 border-4 border-white/20 rounded-2xl z-20 transition-all duration-700 group-hover:border-white/40 group-hover:scale-105" />
           
           {/* Optimized overlay effects - disabled on mobile */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40 z-10 transition-opacity duration-700 group-hover:opacity-0 hidden sm:block" />
-          <div className="absolute inset-0 bg-gradient-to-t from-purple-500/20 via-transparent to-blue-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 hidden sm:block" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40 z-10 transition-opacity duration-700 group-hover:opacity-0 hidden sm:block rounded-2xl" />
+          <div className="absolute inset-0 bg-gradient-to-t from-purple-500/20 via-transparent to-blue-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 hidden sm:block rounded-2xl" />
           
           <img
-            src="/Photo.jpg"
+            src="profile.jpg"
             alt="Profile"
-            className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
+            className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2 rounded-2xl"
             loading="lazy"
           />
 
           {/* Advanced hover effects - desktop only */}
           <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-700 z-20 hidden sm:block">
-            <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
-            <div className="absolute inset-0 bg-gradient-to-bl from-transparent via-white/10 to-transparent transform translate-y-full group-hover:-translate-y-full transition-transform duration-1000 delay-100" />
-            <div className="absolute inset-0 rounded-full border-8 border-white/10 scale-0 group-hover:scale-100 transition-transform duration-700 animate-pulse-slow" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000 rounded-2xl" />
+            <div className="absolute inset-0 bg-gradient-to-bl from-transparent via-white/10 to-transparent transform translate-y-full group-hover:-translate-y-full transition-transform duration-1000 delay-100 rounded-2xl" />
+            <div className="absolute inset-0 rounded-2xl border-8 border-white/10 scale-0 group-hover:scale-100 transition-transform duration-700 animate-pulse-slow" />
           </div>
         </div>
       </div>
@@ -205,7 +205,7 @@ const AboutPage = () => {
                 data-aos="fade-right"
                 data-aos-duration="1300"
               >
-                Eki Zulfar Rachman
+                Abhishek Shrivastav
               </span>
             </h2>
             
@@ -214,7 +214,10 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-             Seorang lulusan Teknik Jaringan Komputer dan Telekomunikasi yang memiliki ketertarikan besar dalam pengembangan Front-End. Saya berfokus pada menciptakan pengalaman digital yang menarik dan selalu berusaha memberikan solusi terbaik dalam setiap proyek yang saya kerjakan.
+             I'm Abhishek Shrivastav
+Bachelor of Engineering in Computer Science & Engineering,
+at, Srinivas Institute of Technology, Mangalore .Currently pursuing a Bachelor of Engineering in Computer Science & Engineering, with a strong focus on software development, algorithms, and data structures.
+Eager to apply engineering principles and technical skills to solve real-world problems and contribute to cutting-edge projects in the tech industry.
             </p>
 
                {/* Quote Section */}
@@ -240,15 +243,19 @@ const AboutPage = () => {
       </div>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="https://drive.google.com/drive/folders/1BOm51Grsabb3zj6Xk27K-iRwI1zITcpo" className="w-full lg:w-auto">
-              <button 
-                data-aos="fade-up"
-                data-aos-duration="800"
-                className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg bg-gradient-to-r from-[#6366f1] to-[#a855f7] text-white font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 shadow-lg hover:shadow-xl "
-              >
-                <FileText className="w-4 h-4 sm:w-5 sm:h-5" /> Download CV
-              </button>
-              </a>
+                <a
+                  href="/resume.pdf"
+                  className="w-full lg:w-auto"
+                  download
+                >
+                  <button
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg bg-gradient-to-r from-[#6366f1] to-[#a855f7] text-white font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 shadow-lg hover:shadow-xl "
+                  >
+                    <FileText className="w-4 h-4 sm:w-5 sm:h-5" /> Download Resume
+                  </button>
+                </a>
               <a href="#Portofolio" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
